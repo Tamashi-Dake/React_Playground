@@ -8,7 +8,7 @@ const Action = {
 
 //useReducer cho counter
 function reducer(state, action) {
-  switch (action.type) {
+  switch (action.type) { 
     case Action.INCREMENT:
       return { count: state.count + 1 };
     case Action.DECREMENT:
